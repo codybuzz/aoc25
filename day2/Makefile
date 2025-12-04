@@ -1,7 +1,7 @@
 CC = gcc
 ASMFLAGS = -no-pie -Wall -nostartfiles
 
-SRC = part1.s
+SRC = part1.s part2.s
 
 OUT = $(SRC:.s=)
 
